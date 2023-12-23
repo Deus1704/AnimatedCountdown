@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+  color: #fff;
+}
+
+#countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.neon-number {
+  margin: 0 10px; /* Adjust the spacing between neon numbers */
+}
+
+.neon-number img {
+  width: 15vw; /* Adjust the width of the neon numbers */
+  height: auto; /* Maintain the aspect ratio */
+}
