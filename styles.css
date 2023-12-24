@@ -10,7 +10,7 @@ body {
 
 #countdown {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: 2em;
   font-family: "Arial", sans-serif;
@@ -18,10 +18,17 @@ body {
 }
 
 .neon-number {
-  margin: 0 10px; /* Adjust the spacing between neon numbers */
+  margin: 0 5px;
+}
+
+.dd,
+.hr,
+.mm,
+.ss {
+  margin-right: 20px; 
 }
 
 .neon-number img {
-  width: 15vw; /* Adjust the width of the neon numbers */
-  height: auto; /* Maintain the aspect ratio */
+  width: 6vw; 
+  height: auto; 
 }
